@@ -16,7 +16,7 @@ print(y.grad_fn)
 # Do more operations on y
 z = y * y * 3
 print(z)
-z = z.mean()
+# z = z.mean()
 print(z)
 
 # Let's compute the gradients with backpropagation
